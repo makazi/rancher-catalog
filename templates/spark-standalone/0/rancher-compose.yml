@@ -1,0 +1,12 @@
+.catalog:
+  name: "Spark Standalone cluster"
+  version: "1.6.1-hadoop2.4"
+  description: |
+    Spark standalone docks with hadoop version 2.4 to use S3.
+    One host node needs to have the label 'spark-master=1' to received the spark master instance.
+    Spark slave instances will be installed on each other nodes.
+  uuid: spark-standalone-0
+  maintainer: "OPS Makazi <ops@makazi.com>"
+
+spark-master:
+  scale: 1

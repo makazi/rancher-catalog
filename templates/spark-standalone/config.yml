@@ -1,0 +1,5 @@
+name: Spark Standalone cluster
+description: |
+  Spark standalone cluster with hadoop version 2.4 to use S3
+version: 1.6.1-hadoop2.4
+category: BigData
